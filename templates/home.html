@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>Diabetes Plot</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,
+    h1 {font-family: "Raleway", Arial, sans-serif}
+    h1 {letter-spacing: 6px}
+</style>
+
+<body>
+
+
+        <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+            <h1 class="w3-xlarge">IN3110</h1>
+            <h1>Assignment 6</h1>
+
+            <div class="w3-padding-32">
+                <div class="w3-bar w3-border">
+                  <h1>Select Classifier and Features:</h1>
+                  <form action="/plot" method="POST">
+                      <select name="Classifier">
+                          <option disabled selected value="">Classifier</option>
+
+                          <option value="knn">knn</option>
+                          <option value="svc">svc</option>
+                      </select>
+                      <select name="Feature 1">
+                          <option disabled selected value="">Feature 1</option>
+                          <option value="pregnant">Pregnant</option>
+                          <option value="glucose">Glucose</option>
+                          <option value="pressure">Pressure</option>
+                          <option value="triceps">Triceps</option>
+                          <option value="insulin">Insulin</option>
+                          <option value="mass">Mass</option>
+                          <option value="pedigree">Pedigree</option>
+                          <option value="age">Age</option>
+                      </select>
+                      <select name="Feature 2">
+                          <option disabled selected value="">Feature 2</option>
+                          <option value="pregnant">Pregnant</option>
+                          <option value="glucose">Glucose</option>
+                          <option value="pressure">Pressure</option>
+                          <option value="triceps">Triceps</option>
+                          <option value="insulin">Insulin</option>
+                          <option value="mass">Mass</option>
+                          <option value="pedigree">Pedigree</option>
+                          <option value="age">Age</option>
+                      </select>
+                      <input type="submit" value="Plot!">
+                  </form>
+                </div>
+            </div>
+        </header>
+</body>
+</html>
