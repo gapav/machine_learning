@@ -2,7 +2,7 @@
 
 Final project from IN3110 using pandas and scikit for machinge learning and analysis. Additionally, Flask is used to create a simple web app for visualizing the results. 
 
-The project is based on the Pima dataset wich is dataset that contains information about 768 women of a population that is susceptible to diabetes. 
+The project is based on the Pima dataset wich is a dataset that contains information about 768 women of a population that is susceptible to diabetes. 
 
 ## Installation:
 
