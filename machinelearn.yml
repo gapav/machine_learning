@@ -1,0 +1,11 @@
+name: machinelean
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - scipy
+  - flask
