@@ -1,4 +1,4 @@
-name: machinelean
+name: machinelearn
 channels:
   - defaults
 dependencies:
